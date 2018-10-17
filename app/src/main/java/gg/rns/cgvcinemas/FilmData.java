@@ -4,19 +4,19 @@ import java.util.ArrayList;
 
 public class FilmData {
     public static String[][] data = new String[][]{
-            {"Venom", "When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego \"Venom\" to save his life.",
+            {"Venom", "Genre : Action",
                     "https://www.cgv.id/uploads/movie/compressed/18026700.jpg"},
-                    {"On Your Wedding Day", "A story of the 10-year emotional roller-coaster romance of Woo-yeon and Seung-hee, repeating a cycle of love and heartbreak, that begun as high school crushes.",
+                    {"On Your Wedding Day", "Genre : Drama",
                             "https://cdn.cgv.id/uploads/movie/compressed/18027700.jpg"},
-                            {"First Man", "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.",
+                            {"First Man", "Genre : History",
                                     "https://cdn.cgv.id/uploads/movie/compressed/18024900.jpg"},
-                                    {"Goosebumps 2 : Haunted Halloween", "Two boys face an onslaught from witches, monsters, ghouls and a talking dummy after they discover a mysterious book by author R.L. Stine.",
+                                    {"Goosebumps 2 : Haunted Halloween", "Genre : Horror",
                                             "https://cdn.cgv.id/uploads/movie/compressed/18025400.jpg"},
-                                            {"Haloween", "Laurie Strode comes to her final confrontation with Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago.",
+                                            {"Haloween", "Genre: Thriller",
                                                     "https://cdn.cgv.id/uploads/movie/compressed/18025700.jpg"},
-                                                    {"Office Uprising", "An employee at a weapons factory discovers that an energy drink turns his co-workers into zombies",
+                                                    {"Office Uprising", "Genre : Thriller",
                                                             "https://cdn.cgv.id/uploads/movie/compressed/18028400.jpg"},
-                                                            {"Johny English Strikes Again", "After a cyber-attack reveals the identity of all of the active undercover agents in Britain, Johnny English is forced to come out of retirement to find the mastermind hacker.",
+                                                            {"Johny English Strikes Again", "Genre : Comedy",
                                                                     "https://cdn.cgv.id/uploads/movie/compressed/18023100.jpg"}
                                                             };
     public static ArrayList<Film> getListData(){
