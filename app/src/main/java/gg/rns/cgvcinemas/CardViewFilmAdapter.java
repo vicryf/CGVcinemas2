@@ -31,8 +31,7 @@ public class CardViewFilmAdapter extends
     @Override
     public CardViewViewHolder onCreateViewHolder(ViewGroup parent, int
             viewType) {
-        View view =
-                LayoutInflater.from(parent.getContext()).inflate(R.layout.item_cardview_film, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_cardview_film, parent, false);
         return new CardViewViewHolder(view);
     }
     @Override
@@ -58,8 +57,6 @@ public class CardViewFilmAdapter extends
             }
         }));
     }
-
-
 
     @Override
     public int getItemCount() {
