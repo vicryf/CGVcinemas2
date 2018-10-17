@@ -47,13 +47,13 @@ public class CardViewFilmAdapter extends
         holder.btnFavorite.setOnClickListener(new CustomOnItemClickListener(position, new CustomOnItemClickListener.OnItemClickCallback() {
             @Override
             public void onItemClicked(View view, int position) {
-                Toast.makeText(context, "Favorite"+getListFilm().get(position).getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Buy "+getListFilm().get(position).getName(), Toast.LENGTH_SHORT).show();
             }
         }));
         holder.btnShare.setOnClickListener(new CustomOnItemClickListener(position, new CustomOnItemClickListener.OnItemClickCallback() {
             @Override
             public void onItemClicked(View view, int position) {
-                Toast.makeText(context, "Share"+getListFilm().get(position).getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Detail "+getListFilm().get(position).getName(), Toast.LENGTH_SHORT).show();
             }
         }));
     }
